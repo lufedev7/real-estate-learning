@@ -191,4 +191,88 @@ export const dataProperties = [
     description:
       'En el corazón de la encantadora ciudad de Cuenca, te presentamos una oportunidad única de adquirir un espectacular piso de 75 metros cuadrados que combina comodidad, elegancia y un entorno natural inigualable. Esta vivienda, ubicada en una zona tranquila y bien comunicada, es un refugio de paz y belleza que estamos seguros te enamorará.. . Al entrar a este acogedor hogar, te recibirá un amplio recibidor que te conducirá a un baño completo con bañera, perfecto para relajarte después de un largo día. Continuando, te adentrarás en un generoso salón comedor, que se fusiona con la cocina a través de puertas correderas. ',
   },
+  {
+    id: 17,
+    location: 'Cuenca, Valencia, ES',
+    price: 200000,
+    bedrooms: 3,
+    bathroom: 1,
+    image: 'propertie12.jpeg',
+    star: 4,
+    meters: 290,
+    description:
+      'En el corazón de la encantadora ciudad de Cuenca, te presentamos una oportunidad única de adquirir un espectacular piso de 75 metros cuadrados que combina comodidad, elegancia y un entorno natural inigualable. Esta vivienda, ubicada en una zona tranquila y bien comunicada, es un refugio de paz y belleza que estamos seguros te enamorará.. . Al entrar a este acogedor hogar, te recibirá un amplio recibidor que te conducirá a un baño completo con bañera, perfecto para relajarte después de un largo día. Continuando, te adentrarás en un generoso salón comedor, que se fusiona con la cocina a través de puertas correderas.',
+  },
+  {
+    id: 18,
+    location: 'Madrid, Madrid, ES',
+    price: 350000,
+    bedrooms: 4,
+    bathroom: 2,
+    image: 'propertie14.jpeg',
+    star: 5,
+    meters: 320,
+    description:
+      'Esta espectacular casa de 120 metros cuadrados está ubicada en el corazón de Madrid. Con cuatro amplios dormitorios y dos baños completos, esta propiedad es ideal para una familia en busca de comodidad y estilo. El luminoso salón ofrece vistas panorámicas de la ciudad, mientras que la cocina totalmente equipada es perfecta para los amantes de la gastronomía. Además, cuenta con una terraza privada donde podrás disfrutar de las vistas y relajarte.',
+  },
+  {
+    id: 19,
+    location: 'Cuenca, Valencia, ES',
+    price: 250000,
+    bedrooms: 4,
+    bathroom: 2,
+    image: 'propertie16.jpeg',
+    star: 5,
+    meters: 550,
+    description:
+      'En la zona alta de la ciudad, con impresionantes vistas a la catedral, se encuentra este magnífico chalet de 550 metros cuadrados. La vivienda, construida con materiales de primera calidad, cuenta con cuatro dormitorios, dos baños completos, un amplio salón comedor con chimenea, una cocina totalmente equipada y una gran terraza con jardín. El chalet está situado en una zona tranquila y bien comunicada, a poca distancia de todos los servicios.',
+  },
+  {
+    id: 20,
+    location: 'Valencia, Valencia, ES',
+    price: 300000,
+    bedrooms: 2,
+    bathroom: 1,
+    image: 'propertie1.jpeg',
+    star: 4,
+    meters: 350,
+    description:
+      'En el centro de la ciudad, a pocos metros de la Plaza del Ayuntamiento, se encuentra este precioso piso de 350 metros cuadrados. La vivienda, reformada recientemente, cuenta con dos dormitorios, un baño completo, un amplio salón comedor con balcón, una cocina totalmente equipada y un trastero. El piso está situado en una zona privilegiada, con todo tipo de servicios a su alcance.',
+  },
+  {
+    id: 21,
+    location: 'Alicante, Alicante, ES',
+    price: 220000,
+    bedrooms: 3,
+    bathroom: 2,
+    image: 'propertie1.jpeg',
+    star: 3.5,
+    meters: 400,
+    description:
+      'En una zona tranquila de la ciudad, a pocos minutos de la playa, se encuentra este cómodo piso de 400 metros cuadrados. La vivienda, situada en un edificio con ascensor, cuenta con tres dormitorios, dos baños completos, un amplio salón comedor con balcón, una cocina totalmente equipada y una plaza de garaje. El piso está equipado con aire acondicionado y calefacción central.',
+  },
+  {
+    id: 22,
+    location: 'Madrid, Madrid, ES',
+    price: 275000,
+    bedrooms: 5,
+    bathroom: 3,
+    image: 'propertie5.jpeg',
+    star: 4.5,
+    meters: 650,
+    description:
+      'En una zona residencial tranquila de la capital, se encuentra esta espectacular vivienda unifamiliar de 650 metros cuadrados. La casa, construida con materiales de alta calidad, cuenta con cinco dormitorios, tres baños completos, un amplio salón comedor con chimenea, una cocina totalmente equipada, una piscina privada y un jardín con barbacoa. La casa está situada en una zona con todos los servicios a su alcance.',
+  },
+  {
+    id: 23,
+    location: 'Barcelona, Barcelona, ES',
+    price: 350000,
+    bedrooms: 3,
+    bathroom: 2,
+    image: 'propertie8.jpeg',
+    star: 5,
+    meters: 450,
+    description:
+      'En el corazón de la ciudad condal, a pocos minutos de la playa, se encuentra este lujoso piso de 450 metros cuadrados. La vivienda, situada en un edificio de diseño, cuenta con tres dormitorios, dos baños completos, un amplio salón comedor con terraza, una cocina totalmente equipada y una plaza de garaje. El piso está equipado con aire acondicionado, calefacción central y domótica.',
+  },
 ]
