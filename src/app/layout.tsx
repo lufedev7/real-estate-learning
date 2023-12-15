@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Quicksand } from 'next/font/google'
 import './globals.css'
+import { GlobalContextProvider } from '@/context/OpenMenuMobileContext'
 
-const inter = Inter({ subsets: ['latin'] })
-
+const quickSand = Quicksand({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Real estate lufedev',
   description: 'Real Estate by Lufedev',
@@ -16,7 +16,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang='es'>
-      <body className={inter.className}>{children}</body>
+      <body className={quickSand.className}>
+        <GlobalContextProvider>{children}</GlobalContextProvider>
+      </body>
     </html>
   )
 }
