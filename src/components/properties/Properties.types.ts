@@ -10,5 +10,5 @@ export interface PropertiesData {
 }
 export interface PropertiesDataGrid {
   key: number
-  property: PropertiesData[]
+  property: PropertiesData
 }
