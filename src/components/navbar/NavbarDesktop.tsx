@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import { dataHeader } from '../header/Header.data'
 import { animationNavbar } from './NavbarAnimate'
 import Link from 'next/link'
+import BLogin from '../butoms/BLogin'
 export default function NavbarDesktop() {
   return (
     <motion.nav
@@ -22,12 +23,7 @@ export default function NavbarDesktop() {
             {name}
           </Link>
         ))}
-        <Link
-          href='/login'
-          className='my-0 px-3 py-2 text-white rounded-lg bg-secundary hover:bg-black'
-        >
-          Login
-        </Link>
+        <BLogin />
       </div>
     </motion.nav>
   )

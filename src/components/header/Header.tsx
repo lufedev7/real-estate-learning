@@ -2,6 +2,7 @@
 import { CiMenuFries } from 'react-icons/ci'
 import { BsTelephone } from 'react-icons/bs'
 import Link from 'next/link'
+import BLogin from '../butoms/BLogin'
 import Navbar from '../Navbar/Navbar'
 import { useGlobalContext } from '../../context/OpenMenuMobileContext'
 export default function Header() {
@@ -27,12 +28,7 @@ export default function Header() {
             <BsTelephone className='hidden sm:inline' />
             <span className='hidden md:block'>+57-3113259753</span>
           </Link>
-          <Link
-            href='/login'
-            className='hidden sm:inline px-3 py-2 text-white rounded-lg bg-secundary hover:bg-black'
-          >
-            Login
-          </Link>
+          <BLogin />
         </div>
       </div>
     </div>

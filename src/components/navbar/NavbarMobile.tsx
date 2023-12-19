@@ -23,7 +23,7 @@ export default function NavbarMobile() {
           {name}
         </Link>
       ))}
-      {windowSize < 640 && (
+      {windowSize < 640 && windowSize !== 0 && (
         <div className=''>
           <Link
             href='tel: 3113259753'

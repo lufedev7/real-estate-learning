@@ -1,12 +1,13 @@
+'use client'
 import Header from '@/components/header/Header'
-import TransitionsPage from '@/components/transitionsPage/TransitionsPage'
 import Properties from '@/components/properties/Properties'
 import dynamic from 'next/dynamic'
+import Banner from '@/components/banner/Banner'
+import Services from '@/components/services/Services'
+import About from '@/components/about/About'
 const LocationMap = dynamic(
   async () =>
-    await import('../components/location/Location').then(
-      (module) => module.Location,
-    ),
+    await import('../components/location').then((module) => module.Location),
   {
     ssr: false,
   },
@@ -14,11 +15,15 @@ const LocationMap = dynamic(
 export default function Home() {
   return (
     <>
-      <TransitionsPage />
       <Header />
       <main className=''>
+        <Banner />
         <Properties />
-        <LocationMap />
+        <div className='max-w-6xl mx-auto'>
+          <Services />
+          <LocationMap />
+          <About />
+        </div>
       </main>
     </>
   )
